@@ -9,3 +9,5 @@ console.log(country, continent, population);
 console.log(country);
 console.log(population);
 console.log(continent);
+
+

@@ -76,7 +76,29 @@ console.log(z, y);
 const averageAge = (ageB + ageA) / 2;
 console.log(ageB, ageA, averageAge);
 
-//coding challenge
+//strings and template literals
 
-//formula : BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
+const penName = 'Ngeebi';
+const job = 'boss baby';
+const birthYear = 2021;
+const yearToday = 2022;
 
+const MC =
+  "I'm " +
+  penName +
+  ', a ' +
+  (yearToday - birthYear) +
+  ' year(s) old ' +
+  job +
+  '!';
+console.log(MC);
+
+// taking decisions : if else statements
+
+const drivingAge = 17;
+
+if (drivingAge >= 18) {
+  console.log('Ngeebi can start driving');
+}else{
+    console.log('Ngeebi is not old enough to  drive');
+}
